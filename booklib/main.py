@@ -119,7 +119,7 @@ def main():
             author_fname = input_str('Enter author first name: ')
             author_lname = input_str('Enter author last name: ')
             author_mname = input_str('Enter author middle name: ')
-            year = input_int('Enter author middle name name: ')
+            year = input_int('Enter book year: ')
             series = input_str('Enter book series name: ')
             publisher = input_str('Enter publisher name: ')
             author = Author(author_fname, author_lname, author_mname)
