@@ -1,4 +1,5 @@
 import sys
+import os
 from datetime import date
 import sqlite3
 
@@ -84,7 +85,7 @@ def input_int(invite: str) -> int:
 def main():
     # 'D:\books.lib\db\mytestlib.db'
     # db = DB(sys.argv[1])
-    db = DB('D:\\books.lib\\db\\mytestlib.db')
+    db = DB('booklib.db')
     while True:
         print('> ', end='')
         cmd = input()
